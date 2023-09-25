@@ -1,0 +1,51 @@
+
+:root {
+    --cor-verde-facilidades: #DAFF01;
+    --cor-lilas-botao-bombando: #9353FF;
+}
+
+.texto-menor {
+    font-size: 13px;
+}
+
+.divs-facilidade {
+    width: 325px;
+}
+
+.facilidades__icon {
+   color: var(--cor-verde-facilidades);
+}
+
+.facilidades__texto {
+    color: var(--cor-verde-facilidades);
+}
+
+.botao-lilas {
+    background-color: #9353FF !important
+}
+
+
+
+.posicao {
+    top: 40%;
+}
+
+@media(max-width: 767px){
+    .posicao{
+        top:100%;
+    }
+}
+
+.posicao-mobile {
+    margin-bottom: 8%;
+    width: 50%;
+    margin-left: 3rem;
+}
+
+.texto-mobile-banner {
+    width: auto;
+}
+
+.titulo-banner-mobile {
+    font-size: 2rem;
+}
